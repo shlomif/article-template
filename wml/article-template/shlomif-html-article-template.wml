@@ -1,0 +1,93 @@
+<define-tag article_subject>
+{#SHLOMIF_ARTICLE_SUBJECT#:%0:##}
+</define-tag>
+<define-tag article_author>
+{#SHLOMIF_ARTICLE_AUTHOR#:%0:##}
+</define-tag>
+<define-tag article_description>
+{#SHLOMIF_ARTICLE_DESCRIPTION#:%0:##}
+</define-tag>
+<define-tag article_keywords>
+{#SHLOMIF_ARTICLE_KEYWORDS#:%0:##}
+</define-tag>
+
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE
+    html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+    "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US">
+<head>
+<title>{#SHLOMIF_ARTICLE_SUBJECT#}</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="author" content="{#SHLOMIF_ARTICLE_AUTHOR#}" />
+<meta name="description" content="{#SHLOMIF_ARTICLE_DESCRIPTION#}" />
+<meta name="keywords" content="{#SHLOMIF_ARTICLE_KEYWORDS#}" />
+<style type="text/css">
+body
+{
+    background-color : white;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+tt, pre
+{
+    color : #8A2BE2; /* BlueViolet; */
+}
+:link:hover, :visited:hover
+{ 
+    background-color : #90EE90; /* LightGreen */
+}
+h1
+{
+    background-color : #96dd9a;
+}
+h2
+{
+    background-color : #FF8080;
+}
+h3
+{
+    background-color : #7fc5ff;
+}
+h4
+{
+    background-color : #ffe11a;
+}
+h1,h2,h3,h4
+{
+    padding-left: 4pt;
+    padding-right: 4pt;    
+    padding-top: 2pt;
+    padding-bottom: 2pt;
+}
+p, ol, ul, dl
+{
+    margin-left: 1em;
+    margin-right: 1em;
+}
+p
+{
+    padding: 3pt;
+}
+/*
+Remmed out because it's annoying.
+p:hover, li:hover, dd:hover
+{
+    background-color: #E6FAE6;
+}
+*/
+.meta dt
+{
+    font-weight: bold;
+}
+</style>
+</head>
+<body>
+<h1>{#SHLOMIF_ARTICLE_SUBJECT#}</h1>
+{#SHLOMIF_ARTICLE_TEMPLATE_BODY#}
+</body>
+</html>
+
+
+{#SHLOMIF_ARTICLE_TEMPLATE_BODY#:
+
