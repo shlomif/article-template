@@ -25,57 +25,68 @@
 <style type="text/css">
 body
 {
-    background-color : white;
+    background-color: white;
     padding-left: 1em;
     padding-right: 1em;
 }
-tt, pre
-{
-    color : #8A2BE2; /* BlueViolet; */
-}
-:link:hover, :visited:hover
+
+tt
 { 
-    background-color : #90EE90; /* LightGreen */
+    color: rgb(138, 43, 226); /* BlueViolet */
 }
+
+pre
+{ 
+    color: rgb(0, 102, 0);
+}
+
+:link:hover, :visited:hover 
+{
+    background-color: rgb(144, 238, 144);
+}
+
 h1
-{
-    background-color : #96dd9a;
+{ 
+    background-color: rgb(245, 248, 206);
 }
-h2
-{
-    background-color : #FF8080;
+
+h2 
+{ 
+    background-color: rgb(254, 225, 210);
 }
+
 h3
-{
-    background-color : #7fc5ff;
+{ 
+    background-color: rgb(207, 219, 239);
 }
+
 h4
 {
-    background-color : #ffe11a;
+    background-color: rgb(247, 221, 245);
 }
-h1,h2,h3,h4
+
+h1, h2, h3, h4 
 {
-    padding-left: 4pt;
-    padding-right: 4pt;    
-    padding-top: 2pt;
-    padding-bottom: 2pt;
+    padding: 2pt 4pt;
 }
-p, ol, ul, dl
-{
+
+p, ol, ul, dl, pre
+{ 
     margin-left: 1em;
     margin-right: 1em;
 }
-p
-{
+
+pre
+{ 
+    border: thin solid black;
     padding: 3pt;
 }
-/*
-Remmed out because it's annoying.
-p:hover, li:hover, dd:hover
-{
-    background-color: #E6FAE6;
+
+p
+{ 
+    padding: 3pt;
 }
-*/
+
 .meta dt
 {
     font-weight: bold;
