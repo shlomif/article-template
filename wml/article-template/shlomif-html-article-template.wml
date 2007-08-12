@@ -10,6 +10,20 @@
 <define-tag article_keywords>
 {#SHLOMIF_ARTICLE_KEYWORDS#:%0:##}
 </define-tag>
+<define-tag include_file whitesapce="delete">
+<preserve file />
+<set-var %attributes /><:{
+require CGI;
+my $filename = q{<get-var file>};
+open my $in, "<", $filename;
+binmode $in, ":utf8";
+{
+    local $/;
+    print CGI::escapeHTML(<$in>);
+}
+close($in);
+}:><restore file />
+</define-tag>
 
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE
