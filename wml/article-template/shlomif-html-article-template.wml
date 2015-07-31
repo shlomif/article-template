@@ -45,32 +45,32 @@ body
 }
 
 tt
-{ 
+{
     color: rgb(138, 43, 226); /* BlueViolet */
 }
 
 pre
-{ 
+{
     color: rgb(0, 102, 0);
 }
 
-:link:hover, :visited:hover 
+:link:hover, :visited:hover
 {
     background-color: rgb(144, 238, 144);
 }
 
 h1
-{ 
+{
     background-color: rgb(245, 248, 206);
 }
 
-h2 
-{ 
+h2
+{
     background-color: rgb(254, 225, 210);
 }
 
 h3
-{ 
+{
     background-color: rgb(207, 219, 239);
 }
 
@@ -79,25 +79,25 @@ h4
     background-color: rgb(247, 221, 245);
 }
 
-h1, h2, h3, h4 
+h1, h2, h3, h4
 {
     padding: 2pt 4pt;
 }
 
 p, ol, ul, dl, pre
-{ 
+{
     margin-left: 1em;
     margin-right: 1em;
 }
 
 pre
-{ 
+{
     border: thin solid black;
     padding: 3pt;
 }
 
 p
-{ 
+{
     padding: 3pt;
 }
 
